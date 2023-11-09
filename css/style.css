@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Tilt+Neon&display-swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', sans-serif;
+    color: green;
+}
+
+body {
+    background-image: radial-gradient( rgb(60, 110, 37) ,rgb(63, 141, 72) );
+}
+
+#menu {
+    list-style: none;
+    background-color: rgb(246, 252, 245);
+    
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu li a {
+    margin-top: -50px;
+    margin-left: 40px;
+    margin-right: 50px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    color: green;
+    transition: background.3s;
+    margin-bottom: 2px ;
+}
+
+#menu li a:hover {
+    background-color: rgb(161, 207, 155);
+}
+
+#imagem {
+    width: 20%;
+    height: 12%;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+
+#menu li a :checked {
+    background-color: rgb(31, 153, 15);
+
+}
+
+#tela {
+    position: absolute;
+    text-decoration: none;
+    border: none;
+}

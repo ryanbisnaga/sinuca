@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Tilt+Neon&display-swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+h1{
+    color: rgb(224, 255, 223);
+    background-color: rgb(4, 71, 9);
+    border: 5px solid rgb(0, 92, 15);
+    margin-top: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    text-align: center;
+    padding: 5px;
+}
+
+#objetivo {
+    color: rgb(224, 255, 223);
+    background-color: rgb(4, 71, 9);
+    border: 5px solid rgb(0, 92, 15);
+    margin-top: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    text-align: center;
+    padding: 5px;
+
+}
+
+p {
+    color: rgb(185, 255, 161);
+    text-align: center;
+    margin-top: 20px;
+}
